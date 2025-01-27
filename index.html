@@ -3,40 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-    <style>
-        form {
-    width: 300px;
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 4px rgba(220, 132, 132, 0.1);
-}
-    </style>
-
-    <style>
-        input[type="text"],
-select {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-    </style>
+    <title>Web Designs</title>
 </head>
 <body>
-  <a href="forms.html"/>
-      <a href="about.html"/>
-    <a href="table.html"/>
-    <a href="services.html"/>
-    
+      <!-- Navigation Bar -->
+      <header role="banner" id="top">
+        <div class="row">
+            <nav class="nav" role="navigation">
+              <ul class="nav__items">
+                <li class="nav__item"><a href="About.html" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="forms.html" class="nav__link">Forms HTML</a></li>
+                <li class="nav__item">
+                  <a href="table.html" class="nav__link">Tables HTML</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#about" class="nav__link">About</a>
+                </li>
+               
+                <li class="nav__item">
+                  <a href="#contact" class="nav__link">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+        <div class="header__text-box row">
+          <div class="header__text">
+            <h1 class="heading-primary">
+              <!--name-->
+              <span>Christine Nyakio Mwangi</span>
+            </h1>
+
+            <img src="https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-using-macbook-pro-5076531/" alt="Picture">
+            
+
         
+            <!-- Put a small paragraph about yourself -->
+            <p> I am a Junior Software Developer.</p>
+              <p> Currently Interested in intersecting entrepreneurship and technology</p>
+            <a href="#footer" class="btn">Let Us Connect</a>
+          </div>
+        </div>
+
+         <!-Clients -->
+      
+         <section class="client" id="clients">
+            <div class="row">
+              <h2>What l do</h2>
+              <h3 class="role1">Frontend</h3>
+              <p>Javascript,Bootstrap, Angular, Jquery, Typescript, HTML, CSS</p>
+              <h3 class="role1">Backend</h3>
+              <p>Python,Django,Flask,PostgreSQL,API</p>
+              <h3 class="role1">Other</h3>
+              <p>Github, Heroku</p>
+            </div>
+          </section>
+
+
+
+          <section class="client" id="clients">
+            <div class="row">
+              <h2>Education</h2>
+              <h3 class="role1">United States International University -Africa</h3>
+              <img src="https://www.pexels.com/photo/selective-focus-photography-of-bookshelf-with-books-1370296/" alt="usiu" >
+
+                
+              
+            </div>
+          </section>
+
+  </header>
+
+
+
+    
 </body>
 </html>
+
