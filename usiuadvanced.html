@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>USIU Advanced Web Developement Evaluation Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+             body {
+            font-family: 'Arial', sans-serif; /* Change to your preferred font */
+            background-color: #f0f8ff; /* Light background color */
+            padding: 20px;
+        }
+
+        .form {
+            border: 2px solid #555bc2; /* Green border */
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+        }
+        .heading{
+            text-align: center;
+
+        }
+
+        input[type="text"], input[type="number"], input[type="email"], input[type="url"], 
+        input[type="file"], select, textarea {
+            width: calc(100% - 22px); 
+            padding: 10px;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px; 
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical; 
+        }
+        input[type="submit"] {
+            background-color: #7055e9;
+            color: white; 
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #546ce4;
+        }
+
+
+        
+
+
+
+
+        </style>
+
+
+    </head>
+    <body>
+        <form method="get">
+            <fieldset class="form">
+                <legend class="heading">Usiu Advanced Web Developement Evaluation Form </legend>
+
+                <label for="fname">Full Name:</label>
+                <br>
+                <input type="text" id="fname" name="fname" required><br>
+
+                <label for="sid">Student ID:</label>
+                <br>
+                <input type="number" id="sid" name="sid" required><br>
+
+
+                <label for="email"> USIU Email Address:</label><br>
+
+            <input type="email" id="email" name="email" required><br>
+            
+            <br>
+
+            <label for="url">Github Profile URL:</label><br>
+
+            <input type="url" id="url" name="url" required><br>
+            
+            <br>
+
+            <label for="phoneno">Local Phone Number(WhatsAPP enabled):</label><br>
+
+            <input type="email" id="email" name="email" required><br>
+            
+            <br>
+
+            <p>1. Nairobi-Specific Problem Solving:</p>
+            <br>
+            <textarea id="text" placeholder="Please input your API security and scalability solution for Nairobi Integration" ></textarea>
+
+            <br>
+
+            <h3>Select the Best JavaScript Framework for Real-Time Nairobi News Aggregation</h3>
+
+        
+                <select id="framework" name="framework">
+                    <option value="react">React</option>
+                    <option value="nextjs">Next.js</option>
+                    <option value="angular">Angular</option>
+                    <option value="vue">Vue</option>
+                </select>
+                <br><br>
+
+                <h3>Which Lavarel optimization method is best for  a Nairobi e-commerce startup</h3>
+                <br>
+                <label for="" class="label"> Database Caching</label> <input type="radio">
+                <br>
+                <label for="" class="label"> Queues and Job Scheduling</label> <input type="radio">
+                <br>
+                <label for="" class="label"> Horizontal Scaling</label> <input type="radio">
+            
+                <br> <br>
+                <h3>Upload a link to a past web project(PDF/Screenshot):</h3>
+                <br>
+                <input type="file" placeholder="Browse" id="file-upload" name="file-upload" >
+                <br>
+                <br>
+
+                <h3>5.Select a Kenyan hosting provider that supports Mpesa payments</h3>
+
+        
+                <select id="host" name="host">
+                    <option value="host">Safaricom Cloud</option>
+                    <option value="host">Oracle Cloud</option>
+                    <option value="host">Airtel Cloud</option>
+                   
+                </select>
+                <br><br>
+
+                <h3>6. How would you optimize a web app for Nairobi users on 2G/3G networks?</h3>
+                <br>
+                <textarea name="host" name="host" placeholder="Explain using PWA lazy loading and CDN strategies"></textarea>
+
+                <br>
+
+                <h3>7. Name two Kenyan tech startups actively hiring full-stack developers</h3>
+                <br>
+                <textarea name="host" name="host" placeholder="Example:Cellulant, Twiga foods"></textarea>
+
+                <br>
+
+                <h3>8. Name tow Kenyan freelancing platforms for web developers besides Upwork/Fever </h3>
+                <br>
+                <textarea name="platform" name="host" placeholder="Example: Kuhustle, Workpay"></textarea>
+
+                <br>
+                
+                <input type="submit" value="Submit Button ">
+
+               
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    
+    </body>
+</html>
